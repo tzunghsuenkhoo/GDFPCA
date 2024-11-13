@@ -38,11 +38,23 @@ Otherwise, use p. Default = FALSE.}
 Generalized dynamic principal component analysis
 }
 \examples{
+     # Create 50 sample paths of a Wiener process by using its truncated Karhunen-Loeve expansion 
+     
      argvals = seq(0, 1, length = 100)
      efW <- funData::simFunData(seq(0, 1, length = 100),M = 100 ,eFunType = "Wiener", eValType = "wiener", N = 50)
      efW.fd <- funData::funData2fd(efW$simData)
+     
+     # Plot the functional process
      plot(efW.fd)
+     
+     # Perform GDFPCA on the process
      Res <- GDFPCA(X = efW.fd, p = 1)
+     
+     # Plot the approximated process
+     plot(Res$Xhat)
+     
+     # Plot 1st GDFPC
+     plot(Res$GDFPC)
      
 }
 \references{
