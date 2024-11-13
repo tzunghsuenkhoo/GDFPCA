@@ -7,3 +7,8 @@ approximate a functional process using the estimated GDPCs.
 
 Peña, D., & Yohai, V. J. (2016). Generalized dynamic principal components. 
 Journal of the American Statistical Association, 111(515), 1121-1131.
+
+To install this package (work in progress):
+
+library(devtools)
+install_github("tzunghsuenkhoo/GDFPCA")
