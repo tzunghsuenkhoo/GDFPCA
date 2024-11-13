@@ -50,7 +50,7 @@ GDFPCA <- function(X, p = 1, center = TRUE, auto_comp = FALSE, expl_var = 0.8,  
   X.gdpca        <- gdpc::auto.gdpc(t(X$coefs), num_comp = p, auto_comp = FALSE, niter_max = 500, expl_var = 0.8,
                                     tol = 1e-4, k_max = 10, normalize = 1,
                                     ncores = 1, verbose = FALSE)
-  Xhat.gdpca     <- scale(stats::fitted(X.gdpca, num_comp = p), center = FALSE)
+  Xhat.gdpca     <- stats::fitted(X.gdpca, num_comp = p)
   Xhat.gdpca.fd  <- fda::fd(coef = t(Xhat.gdpca + mean_X), X$basis)
   
   # Normalized mean squared error
