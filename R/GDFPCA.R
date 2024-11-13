@@ -38,7 +38,7 @@ GDFPCA <- function(X, p, SCALE_ID = FALSE, center=TRUE){
   lst <-  list(RMSE = nmse.gdpca,
                VAR  = var.gdpca,
                XHAT = Xhat.gdpca.fd,
-               PCAs = X_GDPCA = X.gdpca
+               PCAs = X.gdpca
   )
   return(lst)  
 }
