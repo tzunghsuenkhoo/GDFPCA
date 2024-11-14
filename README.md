@@ -1,6 +1,6 @@
 # GDFPCA
 
-This r package implements the generalized dynamic functional principal component analysis
+This R package implements the generalized dynamic functional principal component analysis
 (GDFPCA). GDFPCA is an extension of the generalized dynamic principal component analysis by Peña and Yohai (2016) in the functional data context. 
 The function GDFPCA calculates the estimated generalized dynamic principal component (GDPCs) and 
 approximate a functional process using the estimated GDPCs. 
