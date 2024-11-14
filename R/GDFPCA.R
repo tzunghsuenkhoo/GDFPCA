@@ -23,7 +23,7 @@
 #' Journal of the American Statistical Association, 111(515), 1121-1131.
 #'
 #' @examples 
-#'      # Create 50 sample paths of a Wiener process by using its truncated Karhunen-Loeve expansion 
+#'      # Create 50 sample paths of a Wiener process by using its truncated Karhunen-Loève expansion 
 #'      
 #'      argvals = seq(0, 1, length = 100)
 #'      efW <- funData::simFunData(seq(0, 1, length = 100),M = 100 ,eFunType = "Wiener", eValType = "wiener", N = 50)
