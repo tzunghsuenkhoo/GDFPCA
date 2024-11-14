@@ -10,5 +10,6 @@ Journal of the American Statistical Association, 111(515), 1121-1131.
 
 To install this package (work in progress):
 
+install.packages('devtools') <br />
 library(devtools) <br />
 install_github("tzunghsuenkhoo/GDFPCA")
