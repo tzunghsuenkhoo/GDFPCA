@@ -19,8 +19,8 @@
 #'
 #' 
 #' @export
-#' @references  Peña, D., & Yohai, V. J. (2016). Generalized dynamic principal components. 
-#' Journal of the American Statistical Association, 111(515), 1121-1131.
+#' @references Khoo, T. H., Dabo, I. M., Pathmanathan, D., & Dabo-Niang, S. (2024). Generalized functional dynamic principal component analysis. arXiv preprint arXiv:2407.16024.
+#' Peña, D., & Yohai, V. J. (2016). Generalized dynamic principal components. Journal of the American Statistical Association, 111(515), 1121-1131.
 #'
 #' @examples 
 #'      # Create 50 sample paths of a Wiener process by using its truncated Karhunen-Loève expansion 
