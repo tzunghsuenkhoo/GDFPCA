@@ -1,4 +1,4 @@
-#' Generalized dynamic principal component analysis 
+#' Generalized dynamic functional principal component analysis 
 #' @importFrom fda mean.fd center.fd is.fd
 #' @importFrom gdpc auto.gdpc 
 #' @importFrom stats fitted
